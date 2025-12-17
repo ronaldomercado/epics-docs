@@ -334,7 +334,7 @@ If a device support module is using a driver, it may choose not to implement thi
 
 {external+epics-base:cpp:member}`dset::init`
 
-This routine is called at {doc}`IOC initialization <docs:appdevguide/IOCInit>` time.
+This routine is called at {doc}`IOC initialization <IOCInit>` time.
 Any action is device specific.
 This routine is called twice: once before any database records are initialized, and once after all records are initialized,
 but before the scan tasks are started.

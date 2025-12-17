@@ -1,6 +1,6 @@
 # IOC Error Logging
 
-See {external+epics-base::doc}`errlog_h` for up-to-date API information.
+See {external+epics-base:doc}`errlog_h` for up-to-date API information.
 
 (err-log-overview)=
 ## Overview 
@@ -212,7 +212,7 @@ if(status) {/* Call was not successful */ }
 IOC logging comprises two modules:
 `iocLogServer` and `iocLogClient`.
 
-See {external+epics-base::doc}`logClient_h` for up-to-date API information.
+See {external+epics-base:doc}`logClient_h` for up-to-date API information.
 
 The client code runs on each IOC and listens for the messages generated locally by the [errlog](#err-log-overview) system.
 It also reports the messages from the vxWorks logMsg facility.
