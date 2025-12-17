@@ -64,12 +64,6 @@ You may also directly use related links to see documents which match you the mos
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting started
-
-   getting-started/EPICS_Intro
-
-.. toctree::
-   :maxdepth: 1
    :caption: Installation
 
    getting-started/installation
