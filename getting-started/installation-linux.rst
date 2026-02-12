@@ -299,6 +299,7 @@ full paths, like ``/Users/maradona/EPICS...``.
 The sCalcout record is part of synApps. If streamDevice should be built with support for this record, you have to install at least the calc module from SynApps first. For now let's just comment out that line with ``#`` for it to be ignored.
 
 ::
+
     #CALC=${HOME}/EPICS/support/synApps/calc
 
 If you want to enable regular expression matching, you need the PCRE package. For most Linux systems, it is already installed. In that case tell StreamDevice the locations of the PCRE header file and library. However, the pre-installed package can only by used for the host architecture. Thus, add them not to RELEASE but to RELEASE.Common.linux-x86 (if linux-x86 is your EPICS_HOST_ARCH). Be aware that different Linux distributions may locate the files in different directories.
