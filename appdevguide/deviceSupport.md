@@ -517,4 +517,3 @@ Calculate ESLO and EOFF
 
 - Output record types:
 Perform readback of the initial raw value from the hardware.
-

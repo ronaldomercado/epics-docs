@@ -109,5 +109,3 @@ Packages required to build MEDM
 ::
 
   sudo dnf install libXt-devel motif-devel
-
-

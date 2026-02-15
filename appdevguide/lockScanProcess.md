@@ -755,4 +755,3 @@ If all records connected to `A` can be traversed without finding `B`, then the l
 All the records connected with `A` become one lockset, while the remaining records (including `B`) become the second.
 
 During IOC startup, the complete list of records is iterated (by `dbLockInitRecords`) and the required locksets are created and populated based on the links defined at the time.
-
