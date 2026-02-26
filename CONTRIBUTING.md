@@ -151,10 +151,10 @@ From the pip website:
 2.  Install the project and its dependencies from `pyproject.toml`:
 
 ``` console
-$ python -m venv venv                  # Create a virtual environment for your local build
-$ . venv/bin/activate                  # Activate it
+$ python -m venv .venv                  # Create a virtual environment for your local build
+$ . .venv/bin/activate                  # Activate it
 $ pip install -e .
-$ sphinx-autobuild . ./_build/html
+$ sphinx-autobuild --re-ignore _tags/ . ./_build/html # Build and serve epics-docs documentation
 ```
 
 At this point, same as above,
