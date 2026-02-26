@@ -3,3 +3,7 @@ _tags/
 .DS_Store
 *.autosave
 QtC-*
+
+poetry.lock
+requirements*.txt
+environment.yml
